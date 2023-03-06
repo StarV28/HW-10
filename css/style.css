@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: #E5E5E5;
+}
+
+[class*=__container] {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.header__logo {
+  background: url(../img/icons/VENCE..svg) no-repeat;
+  display: inline-block;
+  width: 200px;
+  height: 20px;
+}
+
+.link-header__fb {
+  background: url(../img/icons/Fb.svg) no-repeat;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.link-header__tw {
+  background: url(../img/icons/Tw.svg) no-repeat;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.link-header__ln {
+  background: url(../img/icons/Ln.svg) no-repeat;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.search__icon {
+  background: url(../img/icons/search.svg) no-repeat;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.search__input-header {
+  display: none;
+}
+
+.footer {
+  background-color: black;
+  height: 200px;
+}
+
+.footer__head::after {
+  content: "";
+  display: block;
+  margin: 10px 0;
+  width: 100%;
+  border: 1px solid #E5E5E5;
+}
+
+.head-footer__logo {
+  background: url(../img/icons/VENCE\ Studio..svg) no-repeat;
+  display: inline-block;
+  width: 200px;
+  height: 20px;
+}
+
+.network-footer__fb {
+  background: url(../img/icons/Fb.svg) no-repeat;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.network-footer__tw {
+  background: url(../img/icons/Tw.svg) no-repeat;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.network-footer__ln {
+  background: url(../img/icons/Ln.svg) no-repeat;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
